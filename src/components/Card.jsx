@@ -49,7 +49,28 @@ const Card = ({ name, url }) => {
                         )
                     })}
                 </div>
-                
+                <div className='grid grid-cols-2 gap-2'>
+                    <div><p>HP:</p> 
+                        <div className='w-full bg-[#6f6f6f] rounded-full h-5'>
+                            <div className='bg-blue-500 rounded-full h-5' style={{ width: `${hp}%` }}></div>
+                        </div>
+                    </div>
+                    <div><p>Attack: {attack}</p>
+                        <div className='w-full bg-[#6f6f6f] rounded-full h-5'>
+                            <div className='bg-sky-500 rounded-full h-5' style={{ width: `${attack}%` }}></div>
+                        </div>
+                    </div>
+                    <div><p>Defense: {defense}</p>
+                        <div className='w-full bg-[#6f6f6f] rounded-full h-5'>
+                            <div className='bg-teal-500 rounded-full h-5' style={{ width: `${defense}%` }}></div>
+                        </div>
+                    </div>
+                    <div><p>Special Attack: {specialAttack}</p>
+                        <div className='w-full bg-[#6f6f6f] rounded-full h-5'>
+                            <div className='bg-cyan-500 rounded-full h-5' style={{ width: `${specialAttack}%` }}></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
