@@ -54,7 +54,7 @@ const layout = () => {
         />
       </div>
 
-      <div className='w-4/5 grid  gap-4 justify-items-center'>
+      <div className='w-4/5 grid sm:grid-cols-1  gap-4 justify-items-center'>
         {/*pokemonList.map((pokemon, index) => (
           <Card key={index} name={pokemon.name} url={pokemon.url}/>
         ))*/
