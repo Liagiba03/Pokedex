@@ -38,7 +38,7 @@ const layout = () => {
     <div className='min-h-screen h-full w-full flex flex-col items-center bg-[#ffffff]'>
       <div className="bg-[#6f6f6f] h-20 sm:w-full w-full flex items-center justify-center shadow-xl/10">
         <img src={pokebola} alt="" className='w-15' />
-        <h1 className=' text-white ml-3'>Pokédex</h1>
+        <h1 className='lg:text-5xl text-white ml-3'>Pokédex</h1>
       </div>
 
       <div className='flex flex-row justify-center items-center h-20'>
